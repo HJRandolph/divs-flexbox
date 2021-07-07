@@ -109,6 +109,11 @@ body {
   background: #fff8dc;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .top-section {
     border-bottom: crimson 3px solid;
     margin-bottom: 1em;
@@ -176,6 +181,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .fab, .fas {
